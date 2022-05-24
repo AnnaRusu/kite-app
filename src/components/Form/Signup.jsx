@@ -9,7 +9,7 @@ export default function Signup() {
   const [inputPassword, setInputPassword] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
-  const usersURL = "https://627fcffdbe1ccb0a4665209c.mockapi.io/user";
+  const usersURL = "";
 
   const handleSignup = (e) => {
     e.preventDefault();

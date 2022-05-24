@@ -13,7 +13,7 @@ export default function NewMarkerForm({ setNewMarker }) {
   const [inputCountry, setInputCountry] = useState("");
   const [inputMonth, setInputMonth] = useState("");
   const [error, setError] = useState(false);
-  const spotsURL = "https://627fcffdbe1ccb0a4665209c.mockapi.io/spot";
+  const spotsURL = "";
 
   const handleSubmit = (e) => {
     e.preventDefault();

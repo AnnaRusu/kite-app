@@ -7,7 +7,7 @@ import "leaflet/dist/leaflet.css";
 
 export default function Map({ spots }) {
   const [favorites, setFavorites] = useState();
-  const favoritesURL = "https://627fcffdbe1ccb0a4665209c.mockapi.io/favourites";
+  const favoritesURL = "";
 
   useEffect(() => {
     fetchData(favoritesURL).then((data) => setFavorites(data));

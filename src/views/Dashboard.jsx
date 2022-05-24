@@ -12,7 +12,7 @@ export default function Dashboard() {
   const [filterForm, setFilterForm] = useState(false);
   const [inputCountry, setInputCountry] = useState("");
   const [inputWind, setInputWind] = useState("");
-  const spotsURL = "https://627fcffdbe1ccb0a4665209c.mockapi.io/spot";
+  const spotsURL = "";
 
   useEffect(() => {
     fetchData(spotsURL).then((receivedData) => setData(receivedData));

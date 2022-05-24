@@ -1,0 +1,66 @@
+.container-mini-form {
+  position: absolute;
+  top: 65px;
+  right: 55px;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: white;
+  color: rgb(87, 87, 87);
+  font-family: Century Gothic;
+  border: 1px solid #f87967;
+  border-radius: 5px;
+  z-index: 4;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+
+    .form-field {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      color: rgb(163, 162, 162);
+      font-size: 14px;
+
+      input {
+        height: 1rem;
+        border: none;
+        border-bottom: 1px solid rgb(194, 194, 194);
+        padding: 5px;
+        color: rgb(73, 72, 72);
+        font-size: 15px;
+        font-family: Century Gothic;
+      }
+
+      input:focus {
+        outline: none;
+        border-bottom: 1px solid #7b87f8;
+      }
+    }
+    
+    button {
+      width: 6rem;
+      height: 2rem;
+      border: 1px solid #f87967;
+      border-radius: 20px;
+      color: #f87967;
+      font-size: 13px;
+      font-weight: bold;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      cursor: pointer;
+    }
+
+    button:hover {
+      color: white;
+      background-color: #f87967;
+    }
+  }
+}

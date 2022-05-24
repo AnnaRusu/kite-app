@@ -1,0 +1,61 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  padding: 0.2rem 1rem;
+
+  p {
+    font-family: Calligraffitti;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(87, 87, 87);
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .newMarker-button {
+      padding: 6px 11px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      background-image: linear-gradient(
+        to right,
+        rgb(129, 110, 248),
+        rgb(111, 184, 252)
+      );
+      font-size: 15px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      cursor: pointer;
+    }
+
+    .account-button {
+      height: 52px;
+      width: 52px;
+      border: none;
+      border-radius: 50%;
+      background-color: transparent;
+      background-image: url("../images/account.svg");
+      background-size: cover;
+      cursor: pointer;
+    }
+  }
+
+  .logout-button {
+    position:absolute;
+    top: 53px;
+    right: 11px;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(221, 15, 15);
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 4;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,20 @@
+.toast {
+  position: absolute;
+  top: 20px;
+  left: 0; 
+  right: 0; 
+  width: 15rem;
+  margin-left: auto; 
+  margin-right: auto; 
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  background-color: rgba(236, 18, 18, 0.925);
+  animation: slide 0.5s ease-in;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(-100px);
+  }
+}

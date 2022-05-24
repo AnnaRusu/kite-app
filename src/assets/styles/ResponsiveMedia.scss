@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+  .container-auth {
+    .form-wrapper {
+      width: 75%;
+    }
+  }
+
+  .table-container {
+    th,
+    td {
+      font-size: 13px;
+    }
+    input {
+      width: 35%;
+    }
+  }
+
+  .newmarker-form-container {
+    width: 14rem;
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .form-field {
+      margin-bottom: 0.5rem;
+      input {
+        height: 1.2rem;
+        font-size: 12px;
+      }
+    }
+
+    .buttons-container {
+      button {
+        height: 1.7rem;
+        font-size: 12px;
+      }
+      .cancel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5rem;
+      }
+      .confirm {
+        text-align: center;
+      }
+    }
+  }
+}
